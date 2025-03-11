@@ -1,10 +1,10 @@
 import React from 'react';
 import './Collabs.css';
-import logo1 from '../../assets/Ultra logo.png';
-import logo2 from '../../assets/Power module.png';
-import logo3 from '../../assets/ultimate power.png';
+import logo1 from '../../assets/Ultra-logo.png';
+import logo2 from '../../assets/Power-module.png';
+import logo3 from '../../assets/ultimate-power.png';
 import logo4 from '../../assets/globe.png';
-import logo5 from '../../assets/Logo ipsum.png';
+import logo5 from '../../assets/Logo-ipsum.png';
 
 const Collabs = () => {
     return (
