@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
-import footerLogo from '../../assets/phantomFooter.png';
-import phone from "../../assets/phoneicon.png"
+import footerLogo from '../../assets/PhantomFooter.png';
+import phone from "../../assets/Phoneicon.png"
 const Footer = () => {
     return (
         <footer className="footer">
