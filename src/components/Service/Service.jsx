@@ -5,7 +5,7 @@ import socialIcon from '../../assets/Social.png';
 import ppcIcon from '../../assets/PPC.png';
 import youtubeIcon from '../../assets/Youtube.png';
 import smallIconSeo from "../../assets/iconseo.png";
-import smallIconSocial from "../../assets/Iconsocialmedia.png";
+import smallIconSocial from "../../assets/iconsocialmedia.png";
 import smallIconPay from "../../assets/iconpayper.png";
 import smallIconYoutybe from "../../assets/iconyoutube.png";
 
