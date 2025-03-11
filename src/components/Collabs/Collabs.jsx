@@ -2,7 +2,7 @@ import React from 'react';
 import './Collabs.css';
 import logo1 from '../../assets/Ultralogo.png';
 import logo2 from '../../assets/Powermodule.png';
-import logo3 from '../../assets/ultimatepower.png';
+import logo3 from '../../assets/Ultimatepower.png';
 import logo4 from '../../assets/globe.png';
 import logo5 from '../../assets/Logoipsum.png';
 

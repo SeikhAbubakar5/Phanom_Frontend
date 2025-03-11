@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import logo from '../../assets/Nav_logo.png';
+import logo from '../../assets/Navlogo.png';
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { FiMenu, FiX } from "react-icons/fi"; // Import hamburger and close icons
+import { FiMenu, FiX } from "react-icons/fi";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,12 +18,12 @@ const Navbar = () => {
           <img src={logo} alt="Phanom Professionals" />
         </div>
 
-        {/* Hamburger Menu Button */}
+
         <button className="hamburger-menu" onClick={toggleMenu}>
           {isMobileMenuOpen ? <FiX /> : <FiMenu />}
         </button>
 
-        {/* Navigation Links */}
+
         <ul className={`nav-links ${isMobileMenuOpen ? "active" : ""}`}>
           <li>
             <a href="#service">Service <span><RiArrowDropDownLine /></span></a>

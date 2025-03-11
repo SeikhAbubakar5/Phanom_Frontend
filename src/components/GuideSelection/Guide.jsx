@@ -1,9 +1,9 @@
 import React from 'react';
 import './Guide.css';
-import profileImage from '../../assets/Guider-Image.png';
-import Material from "../../assets/material-symbols1.png"
-import mobile from "../../assets/fluent_mobile2.png"
-import seo from "../../assets/icon-park3.png"
+import profileImage from '../../assets/GuiderImage.png';
+import Material from "../../assets/materialsymbols1.png"
+import mobile from "../../assets/fluentmobile2.png"
+import seo from "../../assets/iconpark3.png"
 import star from "../../assets/Star.png"
 import starempty from "../../assets/Starempty.png"
 const Guide = () => {
