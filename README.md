@@ -9,4 +9,4 @@ Collaborations Slider: A continuously scrolling slider displaying logos.
 # Technologies Used
 React: For building user interface components.
 CSS: For styling and responsive design with media queries.
-React Icons: For including icons (e.g., hamburger menu and dropdown icons).
+React Icons: For including icons (dropdown icons).
