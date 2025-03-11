@@ -4,10 +4,10 @@ import seoIcon from '../../assets/Seo.png';
 import socialIcon from '../../assets/Social.png';
 import ppcIcon from '../../assets/PPC.png';
 import youtubeIcon from '../../assets/Youtube.png';
-import smallIconSeo from "../../assets/icon-seo.png";
-import smallIconSocial from "../../assets/icon-social-media.png";
-import smallIconPay from "../../assets/icon-pay-per.png";
-import smallIconYoutybe from "../../assets/icon-youtube.png";
+import smallIconSeo from "../../assets/iconseo.png";
+import smallIconSocial from "../../assets/iconsocialmedia.png";
+import smallIconPay from "../../assets/iconpayper.png";
+import smallIconYoutybe from "../../assets/iconyoutube.png";
 
 const Services = () => {
     const [startIndex, setStartIndex] = useState(0);
