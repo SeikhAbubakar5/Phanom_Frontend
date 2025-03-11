@@ -1,0 +1,144 @@
+.services-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: #fff;
+}
+
+.rainbow-background {
+        width: 100vw;
+        height: 100vh;
+        background: radial-gradient(circle at top left, 
+          red, orange, yellow, green, cyan, blue, violet);
+    
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0.7;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0.7;
+    }
+}
+
+.content-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    animation: scaleUp 4s ease-in-out infinite;
+}
+
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1.5rem;
+    animation: fadeIn 0.5s ease-in;
+}
+
+.content-circle h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    animation: fadeIn 0.5s ease-in;
+}
+
+.content-circle p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 80%;
+    line-height: 1.6;
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.02);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .content-circle {
+        width: 80vw;
+        height: 80vw;
+        padding: 1.5rem;
+    }
+
+    .content-circle h2 {
+        font-size: 1.5rem;
+    }
+
+    .content-circle p {
+        font-size: 1rem;
+    }
+
+    .service-icon {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-circle {
+        width: 70vw;
+        height: 70vw;
+    }
+
+    .content-circle h2 {
+        font-size: 1.2rem;
+    }
+
+    .content-circle p {
+        font-size: 0.9rem;
+    }
+
+    .service-icon {
+        width: 50px;
+        height: 50px;
+    }
+}

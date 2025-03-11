@@ -1,0 +1,89 @@
+.navbar {
+  padding: 1rem 4rem;
+  background-color: white;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.book-appointmentnav {
+  background-color: #6C5FD4;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 23px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 206px;
+  height: 46px;
+}
+
+.book-appointment:hover {
+  background-color: #6548d8;
+}
+
+/* ------ HAMBURGER MENU ------ */
+.hamburger-menu {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #333;
+}
+
+/* ------ MOBILE RESPONSIVE DESIGN ------ */
+@media screen and (max-width: 480px) {
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 1rem 0;
+  }
+
+  .book-appointmentnav {
+    width: 90%;
+  }
+}

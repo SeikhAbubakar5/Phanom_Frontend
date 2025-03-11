@@ -1,0 +1,151 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    background: linear-gradient(132.77deg, #FFFFFF 55.44%, #4D95E1 71.32%, #8165E4 82.01%, #BD2CE8 94.69%);
+    min-height: calc(100vh - 80px);
+    position: relative;
+    font-family: Poppins;
+}
+
+.hero-content {
+    flex: 1;
+    padding: 4rem 0;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    margin-bottom: 3.5rem;
+    line-height: 58px;
+    font-weight: 700;
+}
+
+.purple-text {
+    color: #7B5EE4;
+}
+
+.hero-text p {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.5%;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.book-appointment {
+    width: 310px;
+    height: 69px;
+    background-color: #6C5FD4;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 35px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-appointment:hover {
+    background-color: #6548d8;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    flex: 1;
+}
+
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 8rem;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 4rem;
+}
+
+
+.hero-stats {
+    font-family: IBM Plex Sans;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item h2 {
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 0.5rem;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.stat-item p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 2.2rem;
+        line-height: 40px;
+    }
+
+    .hero-text p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .hero-stats {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .stat-item h2 {
+        font-size: 36px;
+    }
+
+    .stat-item p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 1.8rem;
+        line-height: 32px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    .book-appointment {
+        width: 200px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
